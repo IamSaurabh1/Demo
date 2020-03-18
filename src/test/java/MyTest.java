@@ -11,12 +11,12 @@ public class MyTest {
      @Test
      public void test_method_2() {
          Demo d = new Demo();
-         d2.DoSomething(false);
+         d.DoSomething(false);
      }
 
      @Test
      public void test_method_3() {
          Demo d = new Demo();
-         d3.DoSomething(false);
+         d.DoSomething(false);
      }
 }

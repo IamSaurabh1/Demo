@@ -5,9 +5,9 @@ public class Demo {
         if(flag){
             System.out.println("I am covered");
         }
-//         else {
-//             System.out.println("I am not covered");
-//         }
-//        System.out.println("I am always covered");
+         else {
+             System.out.println("I am not covered");
+         }
+        System.out.println("I am always covered");
     }
 }

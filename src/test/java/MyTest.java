@@ -6,10 +6,11 @@ public class MyTest {
     public void test_method_1() {
         Demo d = new Demo();
         d.DoSomething(true);
-        d.DoSomething(false);
     }
 
     @Test
     public void test_method_2() {
+        Demo d = new Demo();
+        d.DoSomething(false);
     }
 }
